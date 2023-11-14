@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+

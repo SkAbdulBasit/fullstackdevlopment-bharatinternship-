@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Users</h2>
+            <ul id="userList"></ul>
+        </div>
+        <div class="main">
+            <h2>Tasks</h2>
+            <ul id="taskList"></ul>
+            <div class="task-form">
+                <h3>Create Task</h3>
+                <input type="text" id="taskTitle" placeholder="Task Title">
+                <select id="assignedUser">
+                    <option value="" disabled selected>Select User</option>
+                    <!-- Users will be dynamically added here -->
+                </select>
+                <button onclick="createTask()">Create Task</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
